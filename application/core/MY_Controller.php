@@ -53,14 +53,6 @@ class Application extends CI_Controller {
 		$choices[] = array('name' => "Gamma", 'link' => '/gamma');
 		return $choices;
 	}
-        
-        
-        
-        
-        
-        
-        
-        
     function restrict($roleNeeded = null) 
     {
         $userRole = $this->session->userdata('userRole');
